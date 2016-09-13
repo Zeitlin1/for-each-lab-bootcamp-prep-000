@@ -1,6 +1,6 @@
 // this lab wasnt working correctly the last time I tried to LEARN.
 function iterativeLog(array) {
-array.forEach((index, element) => {console.log(`${element}: ${index}`)})
+array.forEach((element, index) => {console.log(`${index}: ${element}`)})
 }
 
 function iterate(callback) {
